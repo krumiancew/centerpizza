@@ -1,0 +1,790 @@
+body
+{
+	
+	background-image: url("../Images/tlo2.png");
+	background-repeat: repeat-y repeat-x;
+	color: #ffffff;
+	height: 800px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.wrapper
+{
+	width: 100%;
+	height:100%;
+}
+.header
+{	
+
+
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff !important;
+	height: 160px;
+	background-color: rgba(28,28,28,1) !important;
+	border-bottom: solid 1px #545454;
+
+}
+.pojemniklogo
+{
+	
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+}
+.pojemniknav
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	
+	
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	padding-left: 15%;
+	padding-right: 20%;
+	padding-top: 10px;
+	
+	height: 40px !important;
+	
+	
+	
+	
+}
+.logo
+{
+	padding-top: 10px;
+	width: 200px;
+	height: 80px;
+	float: left;
+	
+}
+
+.pojemniktelefon
+{
+	width: 200px;
+	height: 80px;
+	float: right;
+	text-align: center;
+	
+}
+
+.pojemniktelefon > p
+{
+	height: 120px;
+	display: table-cell;
+	vertical-align: top !important;
+	text-align: right;
+	width: 300px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 300  !important;
+	font-size: 160%;
+	margin-top:5px;
+	
+}
+.pojemniktelefon > a > p > i
+{
+	font-size: 80% 
+	color: #FF2060 !important;
+}
+.pojemniktelefon > p:hover
+{
+	color: gray !important;
+	cursor: pointer;
+}
+.pojemniktelefon > a
+{
+	text-decoration: none;
+	color: #ffffff !important;
+	font-size: 140% !important;
+	height: 30px;
+	text-align: right;
+	width: 300px;
+	
+}
+
+
+#kierunkowy
+{
+	font-size: 65%;
+	
+}
+
+.pojemnikgodziny
+{
+	width: 184px;
+	height: 60px;
+	padding-top: 20px;
+	float: right;
+	text-align: center;
+	
+}
+
+.pojemnikgodziny > p
+{
+	height: 80px;
+	display: table-cell;
+	vertical-align: top !important;
+	text-align: right;
+	width: 300px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 300  !important;
+	font-size: 160%;
+	
+}
+
+.pojemnikgodziny > p:hover
+{
+	color: gray;
+	cursor: pointer;
+}
+#godziny
+{
+	font-size: 11px;
+}
+#dzien
+{
+	font-size: 13px;
+}
+
+.pojemnikgodziny > a 
+{
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+
+
+.nav
+{
+	
+	background-color: rgba(28,28,28,1);
+	height: 60px;
+	margin: 0;
+}
+
+.nav > ol
+{
+	
+	padding: 0;
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 200%;
+	margin-top: 0;
+	background-color: rgba(28,28,28,1);
+	padding-top: 0;
+	
+	
+}
+
+.rozwijanemenu
+{
+	z-index: 100;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 0 6px black;
+	margin-top: 20px;
+	
+	
+	
+}
+
+.rozwijanemenu > li
+{
+	position: relative;
+	z-index: 100;
+	background-color: rgba(28,28,28,1);
+	border-top: solid 1px #545454;
+	height: 40px;
+	display: none;
+	
+}
+.rozwijanemenu > li > a
+{
+	
+	border-right: none !important;
+	font-size: 70%;
+	font-weight: 300;
+	line-height: 40px;
+}
+.rozwijanemenu > li:first-child
+{
+	border-top: none;
+}
+.rozwijanemenu > li > a:hover
+{
+	background-color: #303030;
+	font-weight: 700;
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	border-right: solid 1px #545454;
+	
+	
+}
+ol > li:first-child > a
+{
+	border-left: solid 1px #545454;
+}
+
+ol > li:last-child > a
+{
+	background-color: #FF2060;
+	color: #ffffff;
+}
+ol > li:last-child > a:hover
+{
+	
+	font-weight: 800;
+	background-color: #FF2060 !important;
+}
+
+.nav > ol > li
+{
+	float: left;
+	width: 184px;
+	height: 40px;
+	
+	
+}
+.nav > ol > li > a:hover
+{
+	background-color: #303030;
+	font-weight: 700;
+}
+.content
+{
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	opacity: 1;
+	position: relative;
+}
+
+
+
+
+
+
+.footer
+{
+	width: 100%;
+	height:300px;
+	background-color: rgba(28,28,28,1);
+	margin-top: 60px;
+	margin-bottom: 0;
+	border-top: 0.5px solid gray;
+}
+
+
+.footer-ikona
+{
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+.pojemnik-platnosci
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-bottom: 0.2px solid #ffffff;
+	height: 100px;
+	font-weight: 400;
+	
+}
+
+.formy-platnosci
+{
+	width: 18%;
+	float: left;
+	font-size: 70%;
+	line-height: 65px;
+	padding-top: 10px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	
+}
+
+.nav > ol > li > a
+{
+	font-weight: 500;
+}
+
+.tagi
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-bottom: 0.2px solid #ffffff;
+	height:100px;
+	font-weight: 400;
+}
+.lista-tagi
+{
+	font-size: 70%;
+	line-height: 40px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 20%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pojemnikpromocje
+{
+	
+	width: 1120px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 8%;
+}	
+.promocja
+{
+	float: left;
+	padding: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease; 
+	-o-transition: all 1s ease;
+}
+
+.promocja:hover
+{
+	-o-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	
+}
+
+.promka1
+{
+	background-image: url("../Images/promocja1.jpg");
+	width: 349px;
+	height: 341px;
+	padding: 0 !important;
+	margin: 10px;
+	position: relative;
+	
+	
+	webkit-transition: all 0.5s ease;
+	moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	
+	
+	
+}
+
+.tekstpromo1
+{
+	
+	width: 90%;
+	background-color: rgba(0,0,0,0.5);
+	height: auto;
+	min-height: 30px;
+	position: absolute;
+	bottom: 0;
+	cursor: default;
+	padding: 5%;
+	
+	
+	
+}
+
+.tekstpromo1 > p1
+{
+	font-size: 150%;
+	font-weight: 300;
+}
+.tekstpromo1 > p2
+{
+	font-size: 70%;
+	font-weight: 300;
+	display: none;
+	
+}
+
+
+
+
+
+.promka1:hover
+{	
+	opacity:0.7;
+	filter:alpha(opacity=50);
+		
+}
+
+.promka1:hover > .tekstpromo1 > p2
+{	
+	display: inline;
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.strefydostaw
+{
+	background-color: rgba(255,255,255,1);
+	
+	
+	width: 1100px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80%;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+.strefy
+{
+	
+	float: left;
+	width: 340px;
+	height: 600px;
+	color: #808080;
+	padding: 30px;
+	font-weight: 200;
+
+}
+
+.mapka
+{
+	float: left;
+	width: 700px;
+	min-height: 400px;
+}
+
+
+.faceplugin
+{
+	position: fixed;
+	z-index: 200;
+	right: 0;
+	top: 0;
+	margin-top: 100px;
+	
+	display: none;
+}
+
+#ikonafacea
+{
+	position: fixed;
+	z-index: 200;
+	right: 0;
+	font-size: 150%;
+	
+}
+
+#pokazfacebook:hover > i 
+{
+	display: none;
+}
+
+
+#pokazfacebook:hover > .faceplugin
+{
+	display: block !important;
+}
+
+
+
+
+
+
+.pojemnikpromki
+{
+	width: 1108px;
+	height: auto;
+}
+
+
+.pojemnikpromka1
+{
+	width: 1108px;
+	margin-bottom: 20px;
+	
+	
+	
+}
+
+
+.fotkapromka
+{
+	float: left;
+	width: 700px;
+}
+
+.tekstpromka
+{
+	float: left;
+	width: 368px;
+	background-color: #ffffff;
+	height: 260px;
+	color: #808080;
+	padding: 20px;
+	
+}
+
+
+
+.tekstpromka > h4
+{
+	font-size: 150%;
+	color: #000000;
+	padding: 20px;
+	padding-top: 0;
+	
+}
+
+.tekstpromka > p
+{
+	font-size: 80%;
+	color: #808080;
+	padding: 20px;
+	font-weight: 100;
+}
+
+
+#menuphoneon
+
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index:1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+	color: #000000;
+	text-align: center;
+	
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	margin-right: 6px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WYBOR MIASTA MODAL */
+
+
+
+
+.pojemnikzmiastami
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	height: 200px ;
+	margin-bottom: 4%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 90%;
+}
+
+.pojemnikmiejscowosc
+{
+	width: 30%;
+	margin-left: 1.1%;
+	margin-right: 1%;
+	padding-bottom: 3%;
+	
+	height: auto;
+	float: left;
+	border: 1px solid #808080;
+	border-radius: 15px;
+	
+	
+}
+
+
+.przyciskmiasto
+{
+	width: 70%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FF2060;
+}
+
+
+.przyciskmiasto > a
+{
+	text-decoration: none;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.przyciskmiasto:hover
+{
+	cursor: pointer;
+	
+}
+
+.modal-content > h2
+{
+font-weight: 400;
+
+}
+.opinie > img
+{
+	width: 100%;
+	
+}
+
+
+.opinie
+{
+	
+}
+
+
+

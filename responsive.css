@@ -1,0 +1,555 @@
+@media all and (max-width:950px) 
+{ 
+	body
+	{
+		height: auto;
+	}	
+  .phone
+  {
+	  display: none;
+  }
+  
+  .pojemniklogo
+  {
+	  width: 30%;
+	  margin-left: 0 !important;
+	  margin-right: 0 !important;
+  }
+  div.logo > a > img
+  {
+	 width: 80%;
+	padding-left: 30px;	
+	padding-bottom: 20px;	
+  }
+  .header
+  {
+	  height: 80px;
+	  z-index: 300;
+  }
+  .pojemniknav
+  {
+	  width: 100%;
+	  height: auto;
+	  margin-left: 0;
+  }
+  .nav
+  {
+	  height: auto;
+  }
+  
+  .nav > ol > li
+  {
+	 height: 60px;
+	 width: 100%;
+  }
+  
+  
+
+	ol > li:first-child > a 
+	{
+     border-left: 0;
+	}
+	
+
+	ol a
+	{
+		border: 0;
+	}
+
+	.nav > ol
+	{
+		margin-top: 30px;
+	}
+
+	#menuphoneoff
+	{
+		display: none;
+	}	
+	#menuphoneon
+	{
+		display: block;
+	}
+	.pojemniktelefon > a
+	{
+		text-align: center;
+		
+	}
+
+
+	.pojemniktelefon
+	{
+		position: absolute;
+		z-index: 200;
+		top: 0;
+		right: 0;
+		width: 50px;
+	}
+	#numer, #kierunkowy
+	{
+		display: none;
+	}
+	
+	.icon-phone
+	{
+		font-size: 100% !important; 
+	}
+	
+	.content
+	{
+		margin-left: 10px;
+		margin-right: 10px !important; 
+		width: 100%;
+		
+	}
+	.pojemnikpromki
+	{
+		width: 95%;
+
+	}
+	.pojemnikpromka1
+	{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.tekstpromka
+	{
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	.fotkapromka
+	{
+		width: 100%;
+	}
+	.fotkapromka > img
+	{
+		width: 100%;	
+	}
+	.slider-wrapper
+	{
+		
+		border-top: 30px;
+		width: 94%;
+		height: 0px;
+		
+		
+		
+	}
+	.strefy
+	{
+		float: none;
+		width: 83%;
+		padding-right: 20px;
+		margin-right: 40px;
+		height: auto;
+	}
+	.mapka
+	{
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+		min-height: 400px;
+	}
+	.strefydostaw
+	{
+		width: 92%;
+		margin-left: none !important;
+		margin-right: 25px !important;
+	}
+	.nav > ol > li
+	{
+		height: 45px;
+	}
+	.nav > ol 
+	{
+		margin-top: 10px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	.modal-content
+	{
+		width: 100%;
+		height: 100%;
+		margin: 20% auto;
+		margin-border-bottom: 20px; 
+		padding: 0;
+	}
+	
+	
+	.pojemnikzmiastami
+	{
+		display: none;
+	}
+	
+	
+	.pojemnikmiejscowosc
+	{
+		float:none;
+		width: 100%;
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.mobileprzyciskmiasto
+	{
+		width: 100%;
+		background-color: #FF2060;
+		line-height: 40px;
+		height: 40px;
+		margin-top: 30px;
+		
+		
+	}
+	.mobileprzyciskmiasto > a
+	{
+		text-decoration: none;
+		color: #ffffff;
+		
+	}
+	
+	
+	.miasta-mobile
+	{
+		margin-top: 60px;
+	}
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+@media (max-width:1100px) and (min-width:950px)
+{ 
+	body
+	{
+		height: auto;
+	}	
+  .phone
+  {
+	  display: none;
+  }
+  
+  .pojemniklogo
+  {
+	  width: 30%;
+	  margin-left: 0 !important;
+	  margin-right: 0 !important;
+  }
+  div.logo > a > img
+  {
+	 width: 80%;
+	padding-left: 30px;	
+	padding-bottom: 20px;	
+  }
+  .header
+  {
+	  height: 80px;
+	  z-index: 300;
+  }
+  .pojemniknav
+  {
+	  width: 100%;
+	  height: auto;
+	  margin-left: 0;
+  }
+  .nav
+  {
+	  height: auto;
+  }
+  
+  .nav > ol > li
+  {
+	 height: 60px;
+	 width: 100%;
+  }
+  
+  
+
+	ol > li:first-child > a 
+	{
+     border-left: 0;
+	}
+	
+
+	ol a
+	{
+		border: 0;
+	}
+
+	.nav > ol
+	{
+		margin-top: 30px;
+	}
+
+	#menuphoneoff
+	{
+		display: none;
+	}	
+	#menuphoneon
+	{
+		display: block;
+	}
+	.pojemniktelefon > a
+	{
+		text-align: center;
+		
+	}
+
+
+	.pojemniktelefon
+	{
+		position: absolute;
+		z-index: 200;
+		top: 0;
+		right: 0;
+		width: 50px;
+	}
+	#numer, #kierunkowy
+	{
+		display: none;
+	}
+	
+	.icon-phone
+	{
+		font-size: 100% !important; 
+	}
+	
+	.content
+	{
+		margin-left: 10px;
+		margin-right: 10px !important; 
+		width: 100%;
+		
+	}
+	.pojemnikpromki
+	{
+		width: 95%;
+
+	}
+	.pojemnikpromka1
+	{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.tekstpromka
+	{
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	.fotkapromka
+	{
+		width: 100%;
+	}
+	.fotkapromka > img
+	{
+		width: 100%;	
+	}
+	.slider-wrapper
+	{
+		
+		border-top: 30px;
+		width: 94%;
+		height: 0px;
+		
+		
+		
+	}
+	.strefy
+	{
+		float: none;
+		width: 83%;
+		padding-right: 20px;
+		margin-right: 40px;
+		height: auto;
+	}
+	.mapka
+	{
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+		min-height: 400px;
+	}
+	.strefydostaw
+	{
+		width: 92%;
+		margin-left: none !important;
+		margin-right: 25px !important;
+	}
+	.nav > ol > li
+	{
+		height: 45px;
+	}
+	.nav > ol 
+	{
+		margin-top: 10px;
+	}
+	
+	
+	.miasta-mobile
+	{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+@media all and (min-width:1100px) 
+{
+	
+	
+	
+	.nav > ol > li
+	{
+		width: 16.66%;
+		font-size: 80%;
+	}
+	
+	.pojemnikpromocje
+	{
+		width: 102%;
+		
+	}
+	
+	.promocja
+	{
+		width: 30.5%;
+		padding:1.1%;
+		
+	}
+	.promocja > a > img
+	{
+		width: 100%;
+	}
+	.nav
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.sticky > ol
+	{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+	
+	.formy-platnosci
+	{
+		width: 16%;
+		padding: 0;
+		font-size: 57%;
+	}
+	
+	.footer-ikona
+	{
+		width: 10%;
+	}
+	.footer-ikona > img
+	{
+		width: 100%;
+	}
+	
+	.tagi > img
+	{
+		width: 100%;
+	}
+	
+	.pojemnikpromki
+	{
+		width: 100%;
+	}
+	
+	.pojemnikpromka1
+	{
+		width: 100%;
+	}
+	
+	.pojemnikpromki
+	{
+		width: 100%;
+	}
+	.fotkapromka
+	{
+		width: 45%;
+	}
+	
+	
+	
+	
+	.tekstpromka
+	{
+		width: 50%;
+		
+	}
+	
+	
+	.strefydostaw
+	{
+		width: 100%;	
+	}
+	
+	.strefy
+	{
+		width: 30%;
+	}
+	.mapka
+	{
+		width: 60%;
+		float: right;
+		
+		
+	}
+	
+	.miasta-mobile
+	{
+		display:none;
+	}
+}
+
+
+
+
